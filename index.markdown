@@ -7,6 +7,8 @@ title: SUPERRSUNN's Security Blog
 ---
 
 
-{% for post in site.posts limit: 5 %}
+{% for post in site.posts limit: 15 %}
 * [{{ post.title }}]({{ post.url }}) - {{ post.date | date: "%Y-%m-%d" }}
 {% endfor %}
+
+
